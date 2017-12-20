@@ -1,0 +1,17 @@
+baseSDK:母包SDK ，提供给游戏。
+
+class:实现文件
+
+head:母包SDK使用的头文件。
+
+projects:对应的各个渠道的实现工程
+
+template:DoInnerSDK模版工程
+
+thirds:母包SDK 和 DoInnerSDK所使用的公共文件，便于管理和统一修改。
+
+tools:生成各个渠道DoInnerSDK的python脚本文件。
+
+
+
+对游戏提供文件包括：DoSdk.framework（母包）、DoInnerSDK.framework(渠道实现库)、渠道SDK。
